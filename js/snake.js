@@ -81,7 +81,7 @@ function draw() {
 
 
     // DEATH
-    if (snake[0].x === 400 || snake[0].x === 0 || snake[0].y === 400 || snake[0].y === 0) {
+    if (snake[0].x === 400 || snake[0].x === -20 || snake[0].y === 400 || snake[0].y === -20) {
         ctx.clearRect(0, 0, 400, 400);
         snake = [
             { x: 200, y: 200 },
